@@ -65,11 +65,11 @@ public class Operator {
         var exampleValue1 = 7; // 111
         var exampleValue2 = 3; // 011
         // & bitwise AND
-        System.out.println("AND: " + (exampleValue1 & exampleValue2)); // 3
+        System.out.println(STR."AND: \{exampleValue1 & exampleValue2}"); // 3
         // | bitwise OR
-        System.out.println("OR: " + (exampleValue1 | exampleValue2)); // 7
+        System.out.println(STR."OR: \{exampleValue1 | exampleValue2}"); // 7
         // ^ bitwise XOR
-        System.out.println("XOR: " + (exampleValue1 ^ exampleValue2)); // 4
+        System.out.println(STR."XOR: \{exampleValue1 ^ exampleValue2}"); // 4
 
         // ~ bitwise complement
         // 0 - positive, 1 - negative
