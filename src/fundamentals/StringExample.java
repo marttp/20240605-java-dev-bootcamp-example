@@ -17,7 +17,17 @@ public class StringExample {
         int exp = 5;
         String nationality = "Thai";
         // New Java
-        System.out.println(STR."\{name}:\{exp}:\{nationality}");
+        String introduction = STR."\{name}:\{exp}:\{nationality}"; // Know exactly pattern
+        System.out.println(introduction);
+        String multilineString = """
+                Hello, everyone.
+                I'm Thanaphoom Babparn. TP Coder, YT + FB
+                """;
+        System.out.println(multilineString);
+        // Other utilities
+        String[] strArray = {name, String.valueOf(exp), nationality};
+        String joinWithCustomDelimeter = String.join("-", strArray); // Unknown how long of incoming data
+        System.out.println(joinWithCustomDelimeter);
     }
 
     private static void stringExample() {
