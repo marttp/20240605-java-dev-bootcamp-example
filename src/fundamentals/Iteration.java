@@ -3,6 +3,8 @@ package fundamentals;
 import java.util.List;
 import java.util.Random;
 
+import static util.TutorialUtil.line;
+
 public class Iteration {
 
     public static void main(String[] args) {
@@ -16,10 +18,6 @@ public class Iteration {
         System.out.println("recursiveValue: " + recursiveValue);
         line();
         forEachExample();
-    }
-
-    private static void line() {
-        System.out.println("=========");
     }
 
     // String concat - counting
